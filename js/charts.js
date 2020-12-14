@@ -63,7 +63,6 @@ function buildCharts(sample) {
     var sampArray = samp.filter(sampObj => sampObj.id == sample);
     //  5. Create a variable that holds the first sample in the array.
     var sampleResult = sampArray[0];
-    console.log(sampleResult);
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
     var otuIds = sampleResult.otu_ids;
@@ -114,8 +113,8 @@ function buildCharts(sample) {
     var bubbleLayout = {
       title: 'Bacteria Cultures per Sample',
       xaxis: {title: "OTU ID"},
-      height: 600,
-      width: 1200
+      height: 500,
+      width: 1132
     };
 
     // 3. Use Plotly to plot the data with the layout.
@@ -151,8 +150,8 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-     width: 500,
-     height: 500
+     width: 450,
+     height: 450,     
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
