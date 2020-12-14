@@ -6,8 +6,8 @@ Following the successful collection of bacteria samples from multiple volunteers
 
 ## Summary
 
-![Selection field and first two graphs]()
+![Selection field and first two graphs](https://github.com/MattK1454/belly-button-samples/blob/main/images/biodiversity-site.png)
 
-![Bubble graph]()
+![Bubble graph](https://github.com/MattK1454/belly-button-samples/blob/main/images/biodiversity-site2.png)
 
 ## References
